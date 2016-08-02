@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>On-screen Calculator</title>
+	<style type="text/css">
+		div{
+			display: inline-block;
+			background-color: grey;
+			border: solid black 1px;
+			padding: 25px;
+			margin: 10px;
+		}
+		#screen{
+			background-color: initial;
+			border: none
+		}
+	</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="calc.js"></script>
+</head>
+<body>
+<div class="num">1</div>
+<div class="num">2</div>
+<div class="num">3</div>
+<br>
+<div class="num">4</div>
+<div class="num">5</div>
+<div class="num">6</div>
+<br>
+<div class="num">7</div>
+<div class="num">8</div>
+<div class="num">9</div>
+<div class="num">0</div>
+<br>
+<div class="operator" id="add">+</div>
+<div class="operator" id="subtract">-</div>
+<div class="operator" id="multiply">*</div>
+<br>
+<div class="operator" id="divide">/</div>
+<div id="equal">=</div>
+<div id="clear">C</div>
+<hr>
+<div id="screen"></div>
+</body>
+
+</html>
